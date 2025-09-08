@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFR2GFKT75"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RFR2GFKT75');
+  </script> -->
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  })(window,document,'script','dataLayer','GTM-NC38VTD');</script> -->
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="refresh" content="0; URL=https://cs.stanford.edu/~leoyuan/"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
+
+  <title>Li ZHENG</title>
+  <meta name="description" lang="en" content="This is an academic website for Li ZHENG">
+  <meta name="keywords" lang="en" content="Li ZHENG" />
+  
+
+  <link rel="shortcut icon" href="images/J.jpeg">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+  <script src="js/jquery-2.1.3.min.js"> </script>
+
+  <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+</script>
+<![endif]-->
+
+  <script type="text/javascript">
+    function ShowHide(divId, linkDivId) {
+        if(document.getElementById(divId).style.display == 'none') {
+            document.getElementById(divId).style.display='block';
+            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
+        }
+        else {
+            document.getElementById(divId).style.display = 'none';
+        }
+    }
+  </script>
+
+  <style>
+    /* 为所有列表项设置样式 */
+    li.indented {
+        position: relative;
+        padding-left: 90px; /* 这是对齐效果的关键，可以根据实际内容调整这个值 */
+    }
+
+    li.indented::before {
+        content: attr(data-date);
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+    }
+  </style>
+
+
+
+</head>
+
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC38VTD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+
+    <header class="site-header">
+
+  <div class="wrapper">
+<nav class="site-nav">
+  <a href="#" class="menu-icon">
+    <svg viewBox="0 0 18 15">
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+    </svg>
+  </a>
+
+  <div class="trigger">
+    <a class="page-link" href="#bio"><b>Biography</b></a>
+    <a class="page-link" href="#publications"><b>Publications</b></a>
+<!--     <a class="page-link" href="#codebase"><b>GitHub</b></a> -->
+    <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
+    <a class="page-link" href="#academicservices"><b>Academic Services </b></a>
+    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
+    <!-- Button for Posts -->
+  </div>
+</nav>
+  </div>
+</header>
+
+  <div id="profile-cover" class="cover shallow-bg img-responsive"> 
+    <div id="profile-namecard" class="profile-wrapper wrapper-light">
+      <div id="my-pic" class="profile-col profile-col-1">
+        <img id="profile-avatar" src="imgs/myself.png" alt="Me" class="circle-img border-dark"-/>
+      </div>
+      <div id="my-contact" class="profile-col profile-col-2">
+        <div id="my-name" class="text-grey-dark">
+          Li ZHENG<br>
+        </div>
+        <div id="my-title" class="text-grey">
+          Wuhan University 
+        </div>
+		  <b>
+	    <div id="my-title-" class="text-grey-ligh">
+          PhD candidate
+        </div>
+<!--         <div id="my-email" class="text-grey-light">
+         PhD candidate
+        </div> -->
+
+	</div>
+	    <div class="social-media">
+	      <a href="https://scholar.google.com/citations?user=ItveFKsAAAAJ&hl=zh-CN&oi=sra" target="_blank" class="icon-button linkedin">
+	      <i class="ai ai-google-scholar-square icon-linkedin"></i>
+	        <span></span>
+	      </a>
+	
+	      <a href="https://github.com/zhengli-whu" target="_blank" class="icon-button github">
+	        <i class="fa fa-github icon-github"></i>
+	        <span></span>
+	      </a>
+
+<!--           <a href="https://www.linkedin.com/in/jun-cen-45b995219/" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a>
+          -->
+<!--           <a href="work/Resume_Jun_CEN.pdf" target="_blank" class="icon-button github">
+            <i class="ai ai-cv icon-github"></i>
+            <span></span>
+          </a>
+ -->
+         <a href="mailto:zhengli@whu.edu.cn" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-envelope icon-linkedin"></i>
+            <span></span>
+          </a> 
+        </div>
+      </div>
+
+      <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
+        <div id="my-desc-title">
+          Another me.
+        </div>
+        <div id="my-desc-content">
+          I enjoy running, traveling, hiking, movies, music and so much more<br>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <!-- <script type="text/javascript">
+    function deepFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/deep-me.jpg');
+      $('#profile-avatar').removeClass('border-dark');
+      $('#profile-avatar').addClass('border-bright');
+
+      $('#profile-cover').removeClass('shallow-bg');
+      $('#profile-cover').addClass('deep-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-light');
+      $('#profile-namecard').addClass('wrapper-dark');
+      
+      $('#my-desc').removeClass('hide');
+      $('#my-contact').addClass('hide');    
+      // console.log('Move in now...');
+    }
+    
+    function shallowFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/me.jpg');
+      $('#profile-avatar').removeClass('border-bright');
+      $('#profile-avatar').addClass('border-dark');
+    
+      $('#profile-cover').removeClass('deep-bg');
+      $('#profile-cover').addClass('shallow-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-dark');
+      $('#profile-namecard').addClass('wrapper-light');
+      
+      $('#my-contact').removeClass('hide');
+      $('#my-desc').addClass('hide');
+      // console.log('Move out now...');
+    }
+    
+    $(function() { 
+      $('#my-pic').hover(deepFeature, shallowFeature);
+    })
+
+  </script> -->
+
+<div class="page-content">
+<div class="wrapper">
+<div id="bio" class="bio">
+
+  <h1 class="md-heading text-left">
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+    About
+  </h1>
+  <div class="bio-body" style="overflow:hidden;">
+    <p>
+
+I am a  currently a second-year Ph.D. student at the School of Cyber Science and Engineering, Wuhan University, advised by Prof. Donghong Ji and Prof. Fei Li, and honored to be selected for the Top Talent Program of the School of Intelligence and Computing. As a passionate researcher, I focus on natural language processing (NLP) and affective computing, balancing theoretical innovation with practical applications. Beyond research, I actively participate in debate competitions, where the critical thinking and communication skills honed through debate also strengthen my academic work.
+
+
+      <br>
+    </p>
+
+  </div>
+</div>
+
+<div id="interest" class="bio">
+
+  <h1 class="md-heading text-left">
+  <i class="fa fa-star" aria-hidden="true"></i>
+    Interests
+  </h1>
+  <div class="bio-body" style="overflow:hidden;">
+    <p>
+
+
+As a researcher in NLP, my work focuses on NLP, affective computing, and large-scale dialogue systems, with a central goal of exploring how models can achieve a deep understanding of human emotions and cognitive intentions. I study the cognitive mechanisms of language-related emotions and multimodal affective consistency. Specifically, I explore how to integrate human affective priors into models to improve their ability to judge the authenticity and underlying motivations of emotions, and design interpretable modules that highlight key multimodal evidence for model decisions.  My goal is to advance multimodal affective cognition technologies and develop solutions for emotionally intelligent human–AI interaction, such as psychological companionship and multimodal customer service. If you are interested in potential collaboration, please feel free to contact me at zhengli@whu.edu.cn.
+
+      <br>
+    </p>
+
+  </div>
+</div>
+
+
+
+<div id="publications" class="publications">
+  <h1 class="md-heading text-left">
+    <i class="fa fa-file" aria-hidden="true"></i>
+    Publications (<button class="custom-button" id="show-selected-btn"> Show Representative </button> / <button class="custom-button" id="show-all-btn"> Show All </button>)
+  </h1>
+
+
+  <div class="pub-list">
+
+<div class="pub" data-selected="true">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/ACL25-zl.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      Enhancing Hyperbole and Metaphor Detection with Their Bidirectional Dynamic Interaction and Emotion Knowledge
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        <b>Li Zheng</b>, Sihang Wang, Hao Fei, Zuquan Peng, Fei Li, Jianming Fu, Chong Teng, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">ACL 2025</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://aclanthology.org/2025.acl-long.23/" target="_blank">Paper</a>]
+      [<a class="tag" href="https://github.com/ZhengL00/EmoBi" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="true">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/AAAI25.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      Multi-Granular Multimodal Clue Fusion for Meme Understanding
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        <b>Li Zheng</b>, Hao Fei, Ting Dai, Zuquan Peng, Fei Li, Huisheng Ma, Chong Teng, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">AAAI 2025</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://ojs.aaai.org/index.php/AAAI/article/view/34801" target="_blank">Paper</a>]
+      [<a class="tag" href="xxxxx" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="true">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/AAAI24.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      Reverse Multi-Choice Dialogue Commonsense Inference with Graph-of-Thought
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        <b>Li Zheng</b>, Hao Fei, Fei Li, Bobo Li, Lizi Liao, Donghong Ji, and Chong Teng
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">AAAI 2024</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://ojs.aaai.org/index.php/AAAI/article/view/29942" target="_blank">Paper</a>]
+      [<a class="tag" href="https://github.com/ZhengL00/ReX-GoT" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="true">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/MM24.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      Self-Adaptive Fine-grained Multi-modal Data Augmentation for Semi-supervised Multi-modal Coreference Resolution
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        <b>Li Zheng</b>, Boyu Chen, Hao Fei, Fei Li, Shengqiong Wu, Lizi Liao, Donghong Ji, and Chong Teng
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">ACM MM 2024</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3664647.3680966" target="_blank">Paper</a>]
+      [<a class="tag" href="xxxxx" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="true">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/TACL.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      STPar: A Structure-Aware Triaffine Parser for Screenplay Character Coreference Resolution
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        <b>Li Zheng</b>, Hao Fei, Lei Chen, Fei Li, Chong Teng, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">TACL 2025</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.28/132116" target="_blank">Paper</a>]
+      [<a class="tag" href="https://github.com/ZhengL00/STPar" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="true">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/TASLP.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      ECQED: Emotion-Cause Quadruple Extraction in Dialogs
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        <b>Li Zheng</b>, Donghong Ji, Fei Li, Hao Fei, Shengqiong Wu, Jingye Li, Bobo Li, and Chong Teng
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">TASLP 2025</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/11111709" target="_blank">Paper</a>]
+      [<a class="tag" href="xxxxx" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="true">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/NLPCC.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      A Bi-directional Multi-hop Inference Model for Joint Dialog Sentiment Classification and Act Recognition
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        <b>Li Zheng</b>, Fei Li, Yuyang Chai, Chong Teng, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">NLPCC 2023</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://link.springer.com/chapter/10.1007/978-3-031-44693-1_19" target="_blank">Paper</a>]
+      [<a class="tag" href="xxxxx" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="false">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/ACL-dyz.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      Zero-Shot Conversational Stance Detection: Dataset and Approaches
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        Yuzhe Ding, Kang He, Bobo Li, <b>Li Zheng</b>, Haijun He, Fei Li, Chong Teng, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">ACL 2025 Findings</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://aclanthology.org/2025.findings-acl.168/" target="_blank">Paper</a>]
+      [<a class="tag" href="https://github.com/whuyzding/ZS-CSD" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="false">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/IPM.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      Heuristic Personality Recognition Based on Fusing Multiple Conversations and Utterance-Level Affection
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        Haijun He, Bobo Li, Yiyun Xiong, <b>Li Zheng</b>, Kang He, Fei Li, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">IPM 2024</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://www.sciencedirect.com/science/article/abs/pii/S0306457324002905" target="_blank">Paper</a>]
+      [<a class="tag" href="xxxxx" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="false">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/coling24.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      What Factors Influence LLMs' Judgments? A Case Study on Question Answering
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        Lei Chen, Bobo Li, <b>Li Zheng</b>, Haining Wang, Zixiang Meng, Runfeng Shi, Hao Fei, Jun Zhou, Fei Li, Chong Teng, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">COLING 2024</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://aclanthology.org/2024.lrec-main.1519/" target="_blank">Paper</a>]
+      [<a class="tag" href="xxxxx" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+<div class="pub" data-selected="false">
+  <div class="pub-left">
+    <img class="intro-img frame" src="imgs/pub/CHIP24.png">
+  </div>
+  <div class="pub-right">
+    <div class="title">
+      VSDQ: A Comprehensive Vaccine Stance Detection Quadruple Dataset for Analyzing Vaccine Discussions on Social Media
+    </div>
+    <div class="authors">
+      <font style="font-size: 11pt;">
+        Shijie Wang, <b>Li Zheng</b>, Fei Li, Chong Teng, and Donghong Ji
+      </font>
+    </div>
+    <div class="publish">
+      <span class="place">CHIP 2024</span>
+      <span class="place"></span>
+    </div>
+    <div class="tags">
+      [<a class="tag" href="https://link.springer.com/chapter/10.1007/978-981-96-3755-3_1" target="_blank">Paper</a>]
+      [<a class="tag" href="https://github.com/shengdan320/VSDQ" target="_blank">Code</a>]
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+	
+<!-- JavaScript to handle button clicks -->
+<script>
+  // Get the buttons and publications
+  const showSelectedBtn = document.getElementById('show-selected-btn');
+  const showAllBtn = document.getElementById('show-all-btn');
+  const publications = document.querySelectorAll('.pub');
+
+  // Add event listener to 'Show Selected Publication' button
+  showSelectedBtn.addEventListener('click', function() {
+    publications.forEach(pub => {
+      if (pub.getAttribute('data-selected') === 'true') {
+        pub.style.display = 'block';  // Show selected publication
+      } else {
+        pub.style.display = 'none';  // Hide other publications
+      }
+    });
+  });
+
+  // Add event listener to 'Show All' button
+  showAllBtn.addEventListener('click', function() {
+    publications.forEach(pub => {
+      pub.style.display = 'block';  // Show all publications
+    });
+  });
+</script>
+
+
+<div class="wrapper">
+  <div id="awards" class="bio">
+    <h1 class="md-heading text-left">
+      <i class="fa fa-tasks" aria-hidden="true"></i>
+      Selected Honors & Awards
+    </h1>
+    <ul>
+<!--   	<li> <a href="images/RI.jpeg" target="_blank">Outstanding Research Intern, Alibaba Group, 2023.</a> (15 candidates per year)</li> -->	
+	<li> [2022] National Scholarship for Graduate Students.</li>
+	<li> [2022] Outstanding Graduate Student Award.</li>
+	<li> [2021] Outstanding Student Award.</li>
+	<li> [2021] Second-Rank Academic Scholarship.</li>
+	<li> [2021] Research and Innovation Scholarship.</li>
+	<li> [2020] First-Rank Outstanding Student Scholarship.</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .reviewer-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+
+  .reviewer-column {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    font-size: 0.85em; /* 字体略微变小 */
+    line-height: 1.6;
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 4px;
+  }
+
+  .reviewer-column::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #555;
+  }
+
+  @media (max-width: 600px) {
+    .reviewer-column {
+      flex: 1 1 100%;
+    }
+  }
+
+  .reviewer-title {
+    margin-top: 12px;
+    font-weight: bold;
+  }
+</style>
+
+
+<div class="wrapper">
+  <div id="academicservices" class="bio">
+    <div class="bio-body" style="overflow:hidden;">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-tasks" aria-hidden="true"></i>
+        Academic Services
+      </h1>  
+
+      <div class="reviewer-title">Conference Reviewer/Program Committee Member:</div>
+      <div class="reviewer-section">
+        <div class="reviewer-column">The CVF/IEEE International Conference on Computer Vision 2025 (ICCV, CCF A)</div>
+        <div class="reviewer-column">The Annual Conference on Neural Information Processing Systems 2025 (NeurIPS, CCF A)</div>
+        <div class="reviewer-column">International Conference on Learning Representations 2025 (ICLR, CAAI A)</div>
+        <div class="reviewer-column">The Fortieth AAAI Conference on Artificial Intelligence 2026 (AAAI, CCF A)</div>
+        <div class="reviewer-column">ACM Multimedia 2024/2025 (ACM MM, CCF A)</div>
+        <div class="reviewer-column">The International ACM SIGIR Conference on Research and Development in Information Retrieval 2024 (SIGIR, CCF A)</div>
+        <div class="reviewer-column">IEEE International Conference on Acoustics, Speech and Signal Processing 2025 (ICASSP, CCF B)</div>
+        <div class="reviewer-column">Conference on Empirical Methods in Natural Language Processing 2024 (EMNLP, CCF B)</div>
+   <div class="reviewer-column">The International  Conference on Empirical Methods in Natural Language Processing 2024/2025 (COLING, CCF B)</div>
+   <div class="reviewer-column">Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics 2024/2025 (NAACL, CCF B)</div>
+   <div class="reviewer-column">The International Conference on Natural Language Processing and Chinese Computing 2024/2025 (NLPCC, CCF C)</div>
+
+      </div>
+    
+      <div class="reviewer-title">Journal Reviewer:</div>
+      <div class="reviewer-section">
+        <div class="reviewer-column">IEEE Transactions on Multimedia (TMM, CCF B)</div>
+        <div class="reviewer-column">IEEE Transactions on Neural Networks and Learning Systems (TNNLS, CCF B)</div>
+        <div class="reviewer-column">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT, CCF B)</div>
+        <div class="reviewer-column">Neural Networks (NEUNET, CCF B)</div>
+      </div>
+    </div>
+  </div>
+</div>
+	
+<!-- <div class="wrapper">
+  <div id="academicservices" class="bio">
+    <div class="bio-body" style="overflow:hidden;">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-tasks" aria-hidden="true"></i>
+        Academic Services
+      </h1>  
+
+      <div class="reviewer-title">Conference Reviewer:</div>
+      <div class="reviewer-section">
+        <div class="reviewer-column">Conference on Computer Vision and Pattern Recognition (CVPR)</div>
+        <div class="reviewer-column">International Conference on Computer Vision (ICCV)</div>
+        <div class="reviewer-column">European Conference on Computer Vision (ECCV)</div>
+        <div class="reviewer-column">Conference on Neural Information Processing Systems (NeurIPS)</div>
+        <div class="reviewer-column">International Conference on Learning Representations (ICLR)</div>
+        <div class="reviewer-column">International Conference on Machine Learning (ICML)</div>
+        <div class="reviewer-column">International Conference on Robotics and Automation (ICRA)</div>
+        <div class="reviewer-column">International Conference on Intelligent Robots and Systems (IROS)</div>
+      </div>
+    
+      <div class="reviewer-title">Journal Reviewer:</div>
+      <div class="reviewer-section">
+        <div class="reviewer-column">International Journal of Computer Vision (IJCV)</div>
+        <div class="reviewer-column">Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</div>
+        <div class="reviewer-column">Transactions on Neural Networks and Learning Systems (TNNLS)</div>
+        <div class="reviewer-column">Transactions on Circuits and Systems for Video Technology (TCSVT)</div>
+        <div class="reviewer-column">Transactions on Multimedia (TMM)</div>
+        <div class="reviewer-column">Robotics and Automation Letters (RA-L)</div>
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+
+
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="max-width: 400px; width: 100%;">
+   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=NbAEzPbY3PQa5avxcEx0vcoSXrVWXbD9vvnvR7FZ2yA&cl=ffffff&w=a"></script>
+  </div>
+</div>
+
+
+
+​	
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Contact Me:</li>
+          <li><a href="mailto:">zhengli [at] whu.edu.cn</a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="footer-col  footer-col-2">
+          <a href="https://scholar.google.com/citations?user=ItveFKsAAAAJ&hl=zh-CN&oi=sra" target="_blank" class="icon-button github">
+          <i class="ai ai-google-scholar-square icon-github"></i>
+            <span></span>
+          </a>
+    
+          <a href="https://github.com/zhengli-whu" target="_blank" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+    
+         <a href="mailto:zhengli@whu.edu.cn" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-envelope icon-linkedin"></i>
+            <span></span>
+          </a> 
+
+<!-- 
+          <a href="https://www.linkedin.com/in/jun-cen-45b995219/" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a>
+         
+          <a href="work/Resume_Jun_CEN.pdf" target="_blank" class="icon-button github">
+            <i class="ai ai-cv icon-github"></i>
+            <span></span>
+          </a> -->
+      </div>
+    <div class="footer-col footer-col-3">
+    	<!--<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwillhua127.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+    <!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?user=Lxe71v4AAAAJ&hl=en&url=https%3A%2F%2Fscholar.google.com%2Fcitations&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+    	<p class="text">Last updated: Aug, 2025.</p>
+    </div>
+  </div>
+  </div>
+
+</footer>
+    <div class="back-to-top">Top</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+
+        }
+    });
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+  </body>
+
+<!--
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60071442-1', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+
+<!--<script src="custom-pub.js"></script>-->
+</html>
